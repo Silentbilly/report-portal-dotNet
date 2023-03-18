@@ -25,14 +25,12 @@ namespace report_portal_dotNet.UI.SeleniumHelpers
         }
 
         private static readonly object padlock = new();
-        private static WebDriver instance;
-        private IWebDriver driver;
+        private static WebDriver? instance;
 
         public DriverSingleton()
         {
 
         }
-    
 
         /*   
          *        This thread-safe implementation uses the `lock` keyword to ensure that only one thread can access the `Instance` property at a time.
