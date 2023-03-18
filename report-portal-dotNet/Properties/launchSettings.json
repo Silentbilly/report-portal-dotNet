@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "report-portal-dotNet": {
+      "commandName": "Project",
+      "commandLineArgs": "/AppConfig:..\\..\\..\\app.config"
+    }
+  }
+}
